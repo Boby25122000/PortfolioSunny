@@ -162,7 +162,7 @@
 
 /*! iPads and Tablets (Portrait and Landscape) */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 750px) {
     header {
         height: 50px;
     }
@@ -174,15 +174,14 @@
         height: 45px;
     }
     header .mobile-nav {
-
-        display:block ; /* Explicitly hide on screens larger than 768px */
+        display:block ; 
     }
     header nav .desktop-nav {
         display: none;
     }
     .mobile-nav-icon{
         margin-top: 6px;
-        display: block; /* Show .small-nav only on mobile and tablet */
+        display: block; 
     }
     body {
         font-size: 10px;
@@ -194,13 +193,13 @@
         padding-top: 5%;
     }
     #home .name h4{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     #home .name h2{
         font-size: 1.8rem;
     }
     #home .name h3{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     #home .name button {
         margin: 10px 0px 0px 20px;
@@ -289,6 +288,9 @@
     body {
         font-size: 12px;
     }
+    /* #home {
+        height: 400px;
+    } */
     #home .home-container {
         width: 80%;
         padding: 10px 20px;
@@ -297,13 +299,13 @@
         padding-top: 0.1%;
     }
     #home .name h4{
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
     #home .name h2{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     #home .name h3{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     #home .name button {
         width: 50px;

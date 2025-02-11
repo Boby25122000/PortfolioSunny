@@ -47,6 +47,7 @@ header .logo {
   justify-content: center;
   display: flex;
   align-items: center;
+  padding-left: 10px;
 }
 
 header .logo img {
@@ -184,14 +185,17 @@ header .mobile-nav-container a:hover {
 }
 
 #home .name button {
-  padding: 0px 5px;
+  padding: 0px 2px;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 
 #home .name button a {
   width: 100px;
-  height: 20px;
+  height: auto;
   background-color: white;
   text-decoration: none;
   color: black;
@@ -533,7 +537,7 @@ header .mobile-nav-container a:hover {
 /* !====== Portfolio ====== */
 #portfolio {
   position: relative;
-  height: 100%;
+  height: auto;
   width: 100vw;
   overflow: hidden;
   background-color: black;
@@ -592,7 +596,8 @@ header .mobile-nav-container a:hover {
   transition: transform 0.5s, opacity 0.5s;
   /* left: calc(27% - 150px); */
   left: 17%;
-  top: 30px;
+  /* top: 30px; */
+  bottom: 20px;
   overflow: hidden;
 }
 .item video {
@@ -615,6 +620,8 @@ header .mobile-nav-container a:hover {
   font-weight: bold;
   left: 50px;
   background-color: transparent;
+  bottom: 20px;
+
 }
 
 #next:hover,
