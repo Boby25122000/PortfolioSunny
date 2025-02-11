@@ -351,7 +351,7 @@ header .mobile-nav-container a:hover {
   /* max-height: 1500px; */
   width: 100vw;
   overflow: hidden;
-  background-image: url(/Assets/servicesPageBG.png);
+  background-image: url(Assets/servicesPageBG-min.png);
   background-size: cover;
   background-position: center;
 }
@@ -409,7 +409,7 @@ header .mobile-nav-container a:hover {
   height: auto;
   width: 100vw;
   overflow: hidden;
-  background-image: url(/Assets/resumePageBG.png);
+  background-image: url(Assets/resumePageBG-min.png);
   background-size: cover;
   background-position: bottom;
 }
