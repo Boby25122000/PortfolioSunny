@@ -8,23 +8,23 @@ document.addEventListener("DOMContentLoaded", function () {
     // Function to open the mobile nav
     menuIcon.addEventListener("click", function () {
         mobileNavContainer.style.display = "flex";
-        closeIcon.style.display = "block"; // Show the backspace reverse icon
-        menuIcon.style.display = "none"; // Hide the list icon
+        closeIcon.style.display = "block"; 
+        menuIcon.style.display = "none"; 
     });
     
     // Function to close the mobile nav
     closeIcon.addEventListener("click", function () {
         mobileNavContainer.style.display = "none";
-        closeIcon.style.display = "none"; // Hide the backspace reverse icon
-        menuIcon.style.display = "block"; // Show the list icon again
+        closeIcon.style.display = "none"; 
+        menuIcon.style.display = "block"; 
     });
     
     // Close the menu when a link is clicked
     document.querySelectorAll(".mobile-nav-container a").forEach(link => {
         link.addEventListener("click", function () {
             mobileNavContainer.style.display = "none";
-            closeIcon.style.display = "none"; // Hide the backspace reverse icon
-            menuIcon.style.display = "block"; // Show the list icon again
+            closeIcon.style.display = "none"; 
+            menuIcon.style.display = "block"; 
         });
     });
 });
@@ -105,6 +105,14 @@ items.forEach((item) => {
     video.addEventListener('ended', goToNextSlide);
 });
 
-// Initialize the slider
 updateSlider();
 
+const swiper = new Swiper('.swiper', {
+    slidesPerView: 'auto',
+    spaceBetween: 10,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+  
