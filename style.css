@@ -541,22 +541,20 @@ header .mobile-nav-container a:hover {
   width: 100vw;
   overflow: hidden;
   background-color: black;
-  /* border: 2px solid white; */
 }
 
 #portfolio .portfolio-nav-container {
-  height: 60px;
+  height: 100%;
   width: auto;
   overflow-x: auto;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
   padding: 18px 0;
 }
 .portfolio-nav-container .portfolio-nav {
   display: flex;
   gap: 10px;
-  margin-top: 30PX;
+  height: 30px;
 }
 
 .portfolio-nav-container .portfolio-nav a {
@@ -589,7 +587,6 @@ header .mobile-nav-container a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 20px;
 }
 
 .item {
@@ -602,10 +599,8 @@ header .mobile-nav-container a:hover {
   border-radius: 10px;
   padding: 20px;
   transition: transform 0.5s, opacity 0.5s;
-  /* left: calc(27% - 150px); */
   left: 17%;
-  /* top: 30px; */
-  bottom: 20px;
+  top: 30px;
   overflow: hidden;
 }
 .item video {
@@ -628,8 +623,6 @@ header .mobile-nav-container a:hover {
   font-weight: bold;
   left: 50px;
   background-color: transparent;
-  bottom: 20px;
-
 }
 
 #next:hover,
