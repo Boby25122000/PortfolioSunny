@@ -107,6 +107,8 @@ items.forEach((item) => {
 
 updateSlider();
 
+setInterval(goToNextSlide, 5000);
+
 const swiper = new Swiper('.swiper', {
     slidesPerView: 'auto',
     spaceBetween: 10,
