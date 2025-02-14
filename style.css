@@ -17,6 +17,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-size: cover;
   background-position: center;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 section {
