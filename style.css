@@ -4,12 +4,12 @@
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
 }
 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
@@ -23,12 +23,12 @@ body {
 
 section {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 /* !====== HEADER ====== */
 header {
-  width: 100%;
+  width: 100vw;
   height: 70px;
   top: 0px;
   left: 0px;
@@ -54,8 +54,6 @@ header .logo {
 
 header .logo img {
   height: 65px;
-
-  /* width: 50px; */
 }
 
 nav .nav-container .desktop-nav {
@@ -143,7 +141,6 @@ header .mobile-nav-container a:hover {
   position:relative;
   color: white;
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
 }
@@ -168,8 +165,8 @@ video{
 }
 .name h3 {
   font-size: 2.3rem;
-font-weight: 500;
-font-style: italic;
+  font-weight: 500;
+  font-style: italic;
 }
 .name button {
   padding: 0px 2px;

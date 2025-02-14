@@ -197,12 +197,12 @@
         margin-top: 20px;
     }
     .about-container .image-container img {
-        height: 210px;
-        width: 210px;
+        height: 250px;
+        width: 250px;
     }
     .about-container .about-discription {
         height: 100%;
-        width: 95%;
+        width: 85%;
       }
     .about-container .about-discription p {
         padding-inline: 20px;
@@ -290,12 +290,12 @@
         margin-top: 20px;
     }
     .about-container .image-container img {
-        height: 210px;
-        width: 210px;
+        height: 230px;
+        width: 230px;
     }
     .about-container .about-discription {
         height: 100%;
-        width: 95%;
+        width: 85%;
       }
     .about-container .about-discription p {
         padding-inline: 20px;
@@ -388,7 +388,7 @@
     }
     .about-container .about-discription {
         height: 100%;
-        width: 95%;
+        width: 80%;
       }
     .about-container .about-discription p {
         padding-inline: 20px;
