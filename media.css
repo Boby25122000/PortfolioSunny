@@ -29,9 +29,13 @@
     header nav .nav-container a {
         font-size: 20px;
     }
+    section {
+        height: auto;
+        width: 100vw;
+    }
 
     .small-nav {
-        display: none; /* Explicitly hide on screens larger than 768px */
+        display: none; 
     }
     #home .name button {
         margin: 50px 0px 0px 20px;
@@ -57,17 +61,14 @@
     header nav .large-nav-container a {
         font-size: 10px;
     }
-    #home .name h4{
+    .name h4{
         font-size: 1.5rem;
     }
-    #home .name h2{
+    .name h2{
         font-size: 3rem;
     }
-    #home .name h3{
-        font-size: 1.7rem;
-    }
-    #home .name button {
-        margin: 50px 0px 0px 20px;
+    .name h3{
+        font-size: 1.8rem;
     }
     .about-container .image-container img {
         height: 300px;
@@ -112,33 +113,15 @@
     header nav .desktop-nav a {
         font-size: 1rem;
     }
-    #home .name h4{
+    .name h4{
         font-size: 1rem;
     }
-    #home .name h2{
+    .name h2{
         font-size: 2rem;
     }
-    #home .name h3{
+    .name h3{
         font-size: 1.2rem;
     }
-    #home .name button {
-        margin: 50px 0px 0px 20px;
-    }
-    #home .social-icons a{
-        font-size: 20px;
-    }
-    #home .background {
-        width: 100%;
-        height: 100%;
-    }
-    #home .background video {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    }  
     #about .about-container {
         flex-direction: column;
     }
@@ -152,7 +135,6 @@
     .services-container {
         margin-top: -80px;
     }
-
     .item {
         width: 600px;
         height: 480px;
@@ -186,26 +168,17 @@
     body {
         font-size: 10px;
     }
-    .heading h2 {
-        margin-top: 50px;
+    .name {
+        left: 50px;
     }
-    #home .name{
-        padding-top: 5%;
-    }
-    #home .name h4{
+    .name h4{
         font-size: 1rem;
     }
-    #home .name h2{
+    .name h2{
         font-size: 1.8rem;
     }
-    #home .name h3{
+    .name h3{
         font-size: 1.3rem;
-    }
-    #home .name button {
-        margin: 10px 0px 0px 20px;
-    }
-    #home .social-icons a{
-        font-size: 20px;
     }
     #about {
         height: 100%;
@@ -248,7 +221,6 @@
         width: 500px;
         height: 400px;
         left: 12%;
-        /* right: 15%; */
     }
     #next,
     #prev {
@@ -268,7 +240,6 @@
 @media screen and (max-width: 540px) {
     header {
         height: 45px;
-        /* padding: 0 3px; */
     }
 
     header .logo {
@@ -283,33 +254,28 @@
         display: none;
     }
     .mobile-nav {
-        display: block; /* Show .small-nav only on mobile and tablet */
+        display: block; 
     }
     body {
         font-size: 12px;
     }
-    /* #home {
-        height: 400px;
-    } */
-    #home .home-container {
-        width: 80%;
-        padding: 10px 20px;
+    .name {
+        left: 30px;
     }
-    #home .name{
+    .name{
         padding-top: 0.1%;
     }
-    #home .name h4{
+    .name h4{
         font-size: 0.7rem;
     }
-    #home .name h2{
-        font-size: 1.5rem;
+    .name h2{
+        font-size: 1.2rem;
     }
-    #home .name h3{
-        font-size: 1rem;
+    .name h3{
+        font-size: 0.8rem;
     }
-    #home .name button {
+    .name button {
         width: 50px;
-        /* height: 15px; */
     }
     #home .name button a {
         font-size: 0.6rem;
