@@ -13,10 +13,6 @@
     .small-nav {
         display: none; /* Explicitly hide on screens larger than 768px */
     }
-    #home .name button {
-        margin: 50px 0px 0px 20px;
-    }
-
 } 
 
 
@@ -37,9 +33,6 @@
     .small-nav {
         display: none; 
     }
-    #home .name button {
-        margin: 50px 0px 0px 20px;
-    }
     .about-container .image-container img {
         height: 350px;
         width: 350px;
@@ -47,7 +40,6 @@
     .item {
         width: 850px;
         height: 520px;
-        /* right: 30%; */
     }
 }
 
